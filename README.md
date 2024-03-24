@@ -62,6 +62,16 @@ Utilisation d'une fenetre modal pour éffectuer un dépôt d'évenements
 
 La demande est alors automatiquement envoyer à son chef directe pour validation **(autre module)** et permet une visualtion pour la personne ayant émis sa demande **(autre module)**
 
+### Hiérarchisation et validation
+
+Crèation d'une hiérachisation pour la validation d'un évènement
+
+- pax (utilisateur sans droits)
+- cds (chef de section)
+- cdb (chef de bureau)
+- sec (secrètariat)
+- chef (CDU)
+- rh
 
 ### Visualisation
 
@@ -83,13 +93,24 @@ En fonction de la raison une indication est placer sur sur le calendrier
   
 3. Crèation de la communication
 
-   - pour permettre la communication entre le back et la BDD vous devez modifier les variables dans le fichier bdd.php
+   pour permettre la communication entre le back et la BDD vous devez modifier les variables dans le fichier bdd.php
   
    ```
     $host = "localhost"; (nom dns / @IP)
     $dbname = "spa"; (nom de la database)
     $user = "root"; (nom de l'utilisateur)
     $password = ""; (password)
+   ```
+4. Utilisation d'un utilisateur
+
+   Vous devez initialiser la connexion d'un **"pseudo utilisateur"** dans l'index.php
+
+   ```
+
+     $_SESSION['role'] = "pax"; => rôle de l'utilisateur 
+     $_SESSION['unite'] = "ecl"; => unite de l'utilisateur
+     $_SESSION['peloton'] = "p1"; => peloton de l'utilisateur
+
    ```
 
 
