@@ -1,0 +1,201 @@
+
+
+.service {
+  background-color: #f9a825; /* jaune */
+}
+  
+.permission {
+  background-color: #4caf50; /* vert */
+}
+  
+.mission {
+  background-color: #f44336; /* rouge */
+}
+  
+.formation {
+  background-color: #2196f3; /* bleu */
+}
+  
+.arret {
+  background-color: #9e9e9e; /* gris */
+}
+  
+.malade {
+  background-color: #e91e63; /* rose */
+}
+  
+.absence {
+  background-color: #ff9800; /* orange */
+}
+  
+.deserteur {
+  background-color: #673ab7; /* violet */
+}
+  
+.opex {
+  background-color: #008080; /* vert d'eau */
+}
+  
+.reconversion {
+  background-color: #795548; /* brun */
+}
+  
+.conge {
+  background-color: #00bcd4; /* cyan */
+}
+  
+.autre{
+  background-color: #607d8b; /* gris-bleu */
+}
+
+.red {
+	background-color: #D35400;
+}
+
+.bleu {
+	background-color: #3498DB;
+}
+
+
+
+/* Styles pour le label */
+label {
+  /*font-size: 1.2rem;*/
+  margin-bottom: 1rem;
+}
+
+/* Styles pour l'input */
+input[type="text"] {
+  /*font-size: 1.5rem;*/
+  color: #555;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles pour les boutons */
+button {
+  border: none;
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+
+/* Style pour le conteneur des boutons */
+.button-container {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Style pour le div en bas de la page */
+div {
+    /*margin-top: 50px;*/
+    /*font-size: 24px;*/
+    color: #333;
+}
+
+
+table {
+  border-collapse: collapse;
+
+
+  margin: 0 auto;
+  /*font-size: 16px;*/
+  text-align: center;
+}
+
+caption {
+  /*font-size: 24px;*/
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+thead th {
+  padding: 8px;
+}
+
+tbody td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+tbody td:last-child {
+  font-weight: bold;
+  
+}
+
+tbody td:empty::before {
+  content: "o";
+  color: red;
+}
+
+tbody td:empty::before {
+  content: "p";
+  color: red;
+}
+
+tbody td:empty::before {
+  content: "";
+}
+
+
+
+td.editable {
+			cursor: pointer;
+		}
+		td.editable input {
+			width: 100%;
+			border: none;
+			padding: 6px;
+			/*-size: 14px;*/
+			font-family: inherit;
+			background-color: #fff;
+			box-shadow: inset 0px 0px 5px #ddd;
+		}
+		td.editable input:focus {
+			outline: none;
+			box-shadow: inset 0px 0px 5px #ccc;
+		}
+
+
+  .wk {
+    color : red;
+  }
+
+  .wk_nb {
+    background-color: red;
+  }
+
+
