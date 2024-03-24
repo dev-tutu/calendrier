@@ -113,6 +113,72 @@ En fonction de la raison une indication est placer sur sur le calendrier
 
    ```
 
+## Code
+
+  ### Racine
+
+  1. bdd.php
+  
+       Connexion à la BDD
+
+  ### PHP
+
+  1. readCalendrier.php
+
+       Lecture des cellules du calendrier dans la BDD
+
+  2. requete_php.php
+
+       Rècupère les libellé des motifs stocker dans la BDD
+
+  3. updateAbsence.php
+
+       Mise à jour des absences dans la BDD
+
+  4. updateCalendrier.php
+
+     Mise à jour des jours dans la BDD
+
+  5. militaireFunctions
+
+     Initialisation du tableau en récuperants les noms des utilisateurs
+
+  ### JS
+
+  1. catholiqueDate.js
+
+     Calcule les jours féries
+
+  2. cellule.js
+
+     Initialise le front du calendrier
+
+  3. run.js
+
+     Lance les différentes actions du calendrier
+
+       - changement de mois
+       - changement d'années
+    
+  ### SQL
+
+  la BDD stocke :
+
+  - les motif d'event
+  - les fonctions
+  - grades
+  - unité
+  - peloton
+  - RTT
+  - jours bloquer par l'utilisateur
+  - demande d'absences
+  - les personnes
+  
+
+  
+
+
+
 
 
 
