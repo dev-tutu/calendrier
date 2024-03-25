@@ -173,6 +173,12 @@ En fonction de la raison une indication est placer sur sur le calendrier
   - jours bloquer par l'utilisateur
   - demande d'absences
   - les personnes
+
+## Ameliorations V2
+
+  1. Mail Automatique
+  2. Supression directement depuis le calendrier
+  3. Obfuscation du calendrier par niveau 
   
 
   
