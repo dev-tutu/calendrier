@@ -75,7 +75,7 @@ Crèation d'une hiérachisation pour la validation d'un évènement
 
 ### Visualisation
 
-En fonction de la raison une indication est placer sur sur le calendrier
+En fonction de la raison une indication est placer sur le calendrier
 
 <img width="1107" alt="image" src="https://github.com/dev-tutu/calendrier/assets/164091895/128e6952-bdc1-47ce-abbf-afdd0d6bd7f5">
 
